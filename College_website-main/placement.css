@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+ 
+.navbar{
+    height: 70px;
+    background-color: #4379F2;
+    color: #FFEB00;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 70px;
+    width: 300px;
+
+}
+
+.logo{
+    background-image: url("logo-f.png");
+    background-size: cover;
+    height: 70px;
+    width: 300px;
+
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/** box2 **/
+
+
+
+/** box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgba(31, 81, 161, 0.685);
+
+}
+
+/** box4 **/
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** box5 **/ 
+.nav-cart i {
+    font-size: 30px;
+
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** panal **/
+
+.panal{
+    height: 40px;
+    background-color: #6EC207;
+    display: flex;
+    color: #117554;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panal-ops a {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panal-ops{
+    width: 70%;
+    font-weight: 700;
+}
+
+.panal-deals{
+    font-size: 0.85;
+    font-weight: 700;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: blanchedalmond;
+    position: relative;
+}
+
+#cursor{
+    height: 8vw;
+    width: 8vw;
+    background-color: rgb(30, 0, 255);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+
+}
+
+#cursor h5 {
+font-size: 1.25vw;
+font-weight: 500;
+}
+
+#page1 video {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+
+}
+
+#page1-content {
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    position: relative;
+    z-index: 2;
+    color: #fff;
+
+}
+
+nav {
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: red; */
+    padding: 2vw 3vw;
+
+}
+
+#page1-content h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24vh;
+    line-height: 600%;
+    
+        
+}
+
+#page1-content h1 span{
+   font-size: 24vh;
+}
+
+/* *************  Page2  *************** */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .hero-placement {
+    min-height: 100vh;
+    background: linear-gradient(to right, #1e3a8a, #3b82f6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 2rem;
+  }
+  .hero-content {
+    text-align: center;
+    max-width: 800px;
+  }
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #cbd5e1;
+  }
+  .placement-stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .stat {
+    text-align: center;
+    border: 2px solid #3b82f6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .stat:hover {
+    transform: scale(1.1);
+  }
+  .stat h2 {
+    font-size: 2rem;
+    color: #60a5fa;
+  }
+  .stat p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .cta-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  .cta-button:hover {
+    background-color: #1e40af;
+  }
+
+/* *************  FOOTER  *************** */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+.footer-section {
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+.footer-section:hover {
+    transform: scale(1.05);
+}
+.footer-title {
+    color: #3498db;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.footer-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    transition: color 0.2s;
+}
+.footer-links a:hover {
+    color: #3498db;
+}
+.copyright {
+    background-color: #34495e;
+    color: #bdc3c7;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Animated background waves */
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg"><path fill="%233498db" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,133.3C672,117,768,139,864,165.3C960,192,1056,224,1152,229.3C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320L192,320L96,320L0,320Z"></path></svg>') repeat-x;
+    background-size: 1000px 100px;
+    animation: wave 15s linear infinite;
+    opacity: 0.5;
+}
+
+@keyframes wave {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
